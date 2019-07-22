@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Blog de música Bootstrap</title>
+  </head>
+  <body>
+      <!-- Header -->
+      <header class="container">
+          <div class="row">
+              <div class="col-12 col-md-3">
+                <a class="text-decoration-none" href="#">
+                    <img class="logo img-fluid py-2" src="img/logo.png" alt="" width="100%" height="100%">
+                    <span class="lead text-dark font-weight-bold">MusicaBlog</span> 
+                </a>
+              </div>
+              <div class="col-12 col-md-4 offset-md-5 d-flex justify-content-center justify-content-md-end align-self-md-end text-center mb-md-2">
+                <div id="social">
+                    <a href=""><img src="img/instagram.png" alt="" class="img-fluid"></a>
+                    <a href=""><img src="img/facebook.png" alt="" class="img-fluid"></a>
+                    <a href=""><img src="img/pinterest.png" alt="" class="img-fluid"></a>
+                    <a href=""><img src="img/twitter.png" alt="" class="img-fluid"></a>
+                    <a href=""><img src="img/youtube.png" alt="" class="img-fluid"></a>
+                </div>
+              </div>
+          </div>
+      </header>
+
+      <!-- Nav -->
+      <div class="container">
+        <div class="row">
+              <nav class="nav col-12 font-weight-bold d-flex flex-column flex-sm-row justify-content-md-around bg-warning rounded-bottom">
+                  <a href="" class="nav-link text-dark active">Inicio</a>
+                  <a href="" class="nav-link text-dark">Artistas</a>
+                  <a href="" class="nav-link text-dark">Grupos</a>
+                  <a href="" class="nav-link text-dark">Top 10</a>
+                  <a href="" class="nav-link text-dark">Letras</a>
+                  <a href="" class="nav-link text-dark">Acordes</a>
+              </nav>
+        </div>
+      </div>
+
+      <!-- Contenido -->
+      <div class="container my-3 contenido rounded-top">
+        <div class="row" role="main">
+            <!-- Artículos -->
+            <div class="col-12 col-md-8 my-3">
+              
+              <!-- Post 1 -->
+              <div class="row">
+                <div class="col-12 col-md-7">
+                    <h2 class="">Lo mejor de la música</h2>
+                    <p class="text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque soluta reiciendis vel quaerat esse tenetur illo aspernatur porro vero, nisi iusto eveniet! Quibusdam quas saepe reprehenderit harum eveniet illo voluptates rem possimus placeat fugiat sed repudiandae eius dignissimos incidunt perferendis officiis, odio delectus architecto animi exercitationem, blanditiis doloribus aliquam maiores.</p>
+                </div>
+                <div class="col-12 col-md-5">
+                    <img src="img/post1.jpg" alt="" class="img-fluid">
+                </div>
+              </div>
+              <!-- Caja de comentarios -->
+              <div class="row my-2">
+                  <div class="col-2 pr-0">
+                      <img src="img/perfil.svg" alt="" class="img-fluid">
+                  </div>
+                <div class="col-10">
+                    <div class="form-group">
+                        <textarea class="form-control" id="comments" rows="4" placeholder="Deje un comentario"></textarea>
+                    </div>
+                </div>
+              </div>
+
+              <!-- Post 2 -->
+              <div class="row">
+                  <div class="col-12 col-md-5">
+                      <img src="img/post2.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-12 col-md-7">
+                      <h2 class="">Música para relajarse</h2>
+                      <p class="text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque soluta reiciendis vel quaerat esse tenetur illo aspernatur porro vero, nisi iusto eveniet! Quibusdam quas saepe reprehenderit harum eveniet illo voluptates rem possimus placeat fugiat sed repudiandae eius dignissimos incidunt perferendis officiis, odio delectus architecto animi exercitationem, blanditiis doloribus aliquam maiores.</p>
+                  </div>
+                </div>
+                <!-- Caja de comentarios -->
+                <div class="row my-2">
+                  <div class="col-2 pr-0">
+                      <img src="img/perfil.svg" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-10">
+                      <textarea class="form-control" id="comments" rows="4" placeholder="Deje un comentario"></textarea>
+                  </div>
+                </div>
+            </div>
+        
+            <!-- Aside -->
+            <div class="col-12 col-md-4">
+              <div class="row">
+                <!-- Buscador -->
+                <div class="col-12">
+                  <div class="input-group my-4">
+                    <div class="input-group-prepend">
+                      <button class="btn btn-outline-secondary" type="button" id="search"><img src="img/search-icon.svg" width="16px" alt="Buscar"></button>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Buscar" aria-label="Cuadro de Búsqueda" aria-describedby="search">
+                  </div>
+                </div>
+                <!-- Lista de opciones de busqueda -->
+                <div class="col-12">
+                    <ul class="list-group mb-3">
+                        <li class="list-group-item active">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Morbi leo risus</li>
+                        <li class="list-group-item">Porta ac consectetur ac</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>   
+   
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
